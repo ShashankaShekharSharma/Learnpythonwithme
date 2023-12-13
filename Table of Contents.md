@@ -1,2 +1,1 @@
-<ol>
-  <li>[LearningPython Documentation](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/LearningPython.md)</li>
+[1. LearningPython Documentation](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/LearningPython.md)
