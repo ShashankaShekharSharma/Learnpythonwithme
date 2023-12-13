@@ -11,3 +11,5 @@ I would like to track my learnings so I have created this Repository for my own 
   <li>Simple and easy to understand and at the same time it is platform independent which makes debugging easy</li>
   <li>It is possible to integrate other programming languages within python</li>
 </ul>
+<h3>Python Installation</h3>
+&emsp; Please Refer to any video on YouTube and Download PyCharm or Visual Studio Code and make your system ready for Python Coding
