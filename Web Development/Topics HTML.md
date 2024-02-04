@@ -108,3 +108,4 @@
 
 ## Inline Styles
 - Applying styles directly within HTML.
+

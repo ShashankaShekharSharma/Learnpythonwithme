@@ -5,9 +5,9 @@
 2. JavaScript:
    - [JavaScript](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20JavaScript.md): Essential for adding interactivity to web pages. Learn the basics of JavaScript, including variables, functions, DOM manipulation, and asynchronous programming.
 3. Front-End Frameworks:
-   - [React](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20React.md), [Angular](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20Angular.md), or Vue.js: Familiarize yourself with a modern front-end framework for building dynamic and responsive user interfaces.
+   - [React](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20React.md), [Angular](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20Angular.md), or [Vue.js](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20Vue.js.md): Familiarize yourself with a modern front-end framework for building dynamic and responsive user interfaces.
 4. Back-End Frameworks:
-   - Django or Flask: Learn a Python web framework for building the back-end of web applications. Django is a high-level, full-stack framework, while Flask is a lightweight, micro-framework.
+   - [Django](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20Django.md) or [Flask](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Web%20Development/Topics%20Flask.md): Learn a Python web framework for building the back-end of web applications. Django is a high-level, full-stack framework, while Flask is a lightweight, micro-framework.
 5. Database Management:
    - SQL (Structured Query Language): Understand the basics of SQL for database operations. Learn how to interact with databases using Python.
    - ORM (Object-Relational Mapping): Familiarize yourself with Django ORM or SQLAlchemy for database interactions in Python.
