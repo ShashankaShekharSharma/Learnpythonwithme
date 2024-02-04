@@ -23,10 +23,10 @@ Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/learnpythonwithme.git
-   cd learnpythonwithme
+   cd Learnpythonwithme
   ```
 ## Contributing
-If you'd like to contribute to this repository by adding new problems, solutions, or improving existing content, please follow the contribution guidelines.
+If you'd like to contribute to this repository by adding new problems, solutions, or improving existing content, please follow the [contribution guidelines](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Guidelines_to_Contribution.md).
 
 Your contributions are highly valued and will help make this repository a more comprehensive learning resource for the Python community.
 
@@ -34,4 +34,8 @@ Your contributions are highly valued and will help make this repository a more c
 This repository is licensed under the MIT License. Feel free to use the content for personal or educational purposes.
 
 Happy coding and learning!
+
+# Table of Contents:
+1. Python Codes
+   - [Printing Hello World in Python](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/01.%20Printing%20Hello%20World.py)
    
