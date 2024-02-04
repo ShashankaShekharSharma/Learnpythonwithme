@@ -1,3 +1,27 @@
+# Python
+Python is a versatile and high level programming language known for its simplicity, readability and wide range of applications created by Guido Van Rossum released in 1991. Python has gained a high popularity in various domains like web development, data science, machine learning, artificial intelligence, scripting, etc. 
+
+# Key features of Python
+1. Readability: It is designed to be clean and readable making it easy for developers to code in fewer lines of code.
+2. Interpreted Language: Code execution occurs line by line making it easier for debugging and testing.
+3. Cross Platform Compatibility: It is compatible in all types of platforms without any modifications.
+4. Extensive Standard Library: It consists of comprehensive standard library that provides modules and packages for various tasks reducing the needs for standard libraries.
+5. Dynamic Typing: It allows the developers to create variables without specifying their datatype
+6. Object Oriented Programming: It supports various Object Oriented Programming Concepts like classes, inheritence and polymorphism
+7. Community Support: Python is known for its large support community of experienced developers contributing to open sourse projects
+8. Libraries and framework: Python has a rich ecosystem of libraries and framework that cater to various domains. For data manipulation, there are libraries like Pandas and Numpy, flask and django for web development, tensoreflow and pytorch for machine learning, etc.
+9. Versatility: Python is known for its application in various fields from web developemnt to artificial intelligence.
+10. Rapid Prototyping: Python is a suitable language for rapid prototyping and development.
+
+# Applications of Python
+1. Web Development
+2. Data Science and Analytics
+3. Machine Learning and Artificial Intellignce
+4. Automation and Scripting
+5. Game Development
+6. Scientific Computing
+7. Network Programming
+8. Desktop GUI Applications
 # Tensorflow 
 Tensorflow is an open source framework that makes machine learning and neural networking easy to use
 
