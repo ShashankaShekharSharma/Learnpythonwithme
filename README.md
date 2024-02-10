@@ -38,4 +38,7 @@ Happy coding and learning!
 # Table of Contents:
 1. Python Codes
    - [Printing Hello World in Python](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/01.%20Printing%20Hello%20World.py)
+   - [Performing Basic Calculations](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/02.%20Performing%20Basic%20Calculations.py)
+   - [Checking Even and Odd](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/03.%20Checking%20Even%20and%20Odd.py)
+   - [Finding the largest number](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/04.%20Finding%20the%20Largest%20number)
    
