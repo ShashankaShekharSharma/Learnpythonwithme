@@ -5,4 +5,5 @@ def vowels(a):
     if a[i] in "aeiou":
       count+=1
   return count
-print(vowels(a))
+print("Number of vowels: ",vowels(a))
+print("Number of consonants: ",abs(len(a)-vowels(a)))
