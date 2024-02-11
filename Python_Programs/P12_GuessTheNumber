@@ -63,3 +63,36 @@ def calculate_and_display_score(attempts, max_score):
 
 if __name__ == "__main__":
     guess_the_number()
+'''
+26. **FizzBuzz Challenge (Extended):**
+    Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for the multiples of five, print "Buzz." For numbers that are multiples of both three and five, print "FizzBuzz."
+
+27. **Matrix Addition:**
+    Write a function that takes two matrices as input and returns their sum. Assume the matrices are represented as lists of lists.
+
+28. **String Compression:**
+    Write a function that performs basic string compression. For a string like "aabcccccaaa," return "a2b1c5a3." If the compressed string is not smaller than the original, return the original string.
+
+29. **Validate Email Address:**
+    Write a function to validate an email address based on certain criteria (e.g., presence of '@' and '.' symbols, proper placement, etc.).
+
+30. **Reverse Linked List:**
+    Implement a function to reverse a linked list.
+
+31. **Longest Common Prefix:**
+    Write a function to find the longest common prefix string amongst an array of strings.
+
+32. **Rotate Image:**
+    Given an N x N matrix representing an image, write a function to rotate the image by 90 degrees (clockwise).
+
+33. **Substring with Concatenation of All Words:**
+    You are given a string s and a list of words. Write a function to find all the starting indices of substring(s) in s that is a concatenation of each word in words.
+
+34. **Check for Anagrams in a List of Words:**
+    Write a function to check for anagrams in a given list of words.
+
+35. **Implement a Basic Calculator:**
+    Write a simple calculator program that can perform addition, subtraction, multiplication, and division.
+
+Feel free to explore these problems based on your interests and preferences. They cover a variety of algorithms, data structures, and programming challenges. If you have any specific topics you'd like to focus on or if you need hints for any particular problem, feel free to let me know!
+'''
