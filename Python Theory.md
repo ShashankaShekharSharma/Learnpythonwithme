@@ -115,3 +115,12 @@ It involves training a model on a certain task and then leveraging that knowledg
 11. Agriculture: Satellite imagery from crop monitoring and predicting optimal harvest times
 12. Human Resources: applicant tracking systems, predicting employee turnover
 13. Climate Modelling: predicting weather conditions patterns, analyzing climate data, modelling environmental changes
+
+## Operators in Python
+1. Arithmetic Operators: +,-,*,/,//,%,**
+2. Relational/Comparision Operators: ==, !=, >=, <=, <, >
+3. Assignment Operators: +=, -=, /=, //=, %=, **=
+4. Logical Operators: not, and, or
+5. Membership Operators: in, not in
+6. Identity Operators: is, is not
+7. Bitwise Operators: &,|,^
