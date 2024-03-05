@@ -124,3 +124,12 @@ It involves training a model on a certain task and then leveraging that knowledg
 5. Membership Operators: in, not in
 6. Identity Operators: is, is not
 7. Bitwise Operators: &,|,^
+
+`As per the concept of operator precedence not>and>or`
+
+* Functions in a module can be found using
+
+```python
+import math
+print(dir(math))
+```
