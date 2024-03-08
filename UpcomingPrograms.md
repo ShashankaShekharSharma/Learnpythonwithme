@@ -7,9 +7,6 @@
 3.  Queue Implementation
    Implement a queue data structure with enqueue, dequeue, and peek operations.
 
-4.  Matrix Multiplication
-   Write a function to multiply two matrices.
-
 5.  Find the Missing Number
    Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
 
@@ -111,9 +108,6 @@
 3. **Maximum Depth of Binary Tree:**
    Find the maximum depth of a binary tree.
 
-4. **Reverse Words in a String:**
-   Given an input string, reverse the string word by word.
-
 5. **Number of Islands:**
    Given a 2D grid map of '1's (land) and '0's (water), count the number of islands.
 
@@ -207,31 +201,40 @@
 5. **Find Common Elements:**
    Given two lists, find the common elements between them.
 
-6. **Check for Palindrome:**
-   Write a function to check if a list is a palindrome.
-
-7. **Move Zeros to End:**
+6. **Move Zeros to End:**
    Given an array, move all zeros to the end without changing the order of non-zero elements.
 
-8. **Rotate List:**
+7. **Rotate List:**
    Rotate a list to the right by k steps.
 
-9.  **Implement Stack Using Lists:**
+8.  **Implement Stack Using Lists:**
     Implement a stack data structure using Python lists.
 
-10. **Implement Queue Using Lists:**
+9.  **Implement Queue Using Lists:**
     Implement a queue data structure using Python lists.
 
-11. **Maximum Subarray Sum:**
+10. **Maximum Subarray Sum:**
     Find the maximum sum of a contiguous subarray in a given list.
 
-12. **Find Majority Element:**
+11. **Find Majority Element:**
     Given a list, find the majority element (element appearing more than n/2 times).
 
-13. **Minimum Element in Stack:**
+12. **Minimum Element in Stack:**
     Implement a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
-14. **Flatten Nested List Iterator:**
+13. **Flatten Nested List Iterator:**
     Implement an iterator to flatten a nested list.
-
-Feel free to tackle these problems to strengthen your understanding of list methods and their applications. If you have any questions or need solutions, feel free to ask!
+14. **Check for Anagrams in a List of Words:**
+    Write a function to check for anagrams in a given list of words.
+15. **Substring with Concatenation of All Words:**
+    You are given a string s and a list of words. Write a function to find all the starting indices of substring(s) in s that is a concatenation of each word in words.
+16. **Rotate Image:**
+    Given an N x N matrix representing an image, write a function to rotate the image by 90 degrees (clockwise).
+17.  **Reverse Linked List:**
+    Implement a function to reverse a linked list.
+18. **Longest Common Prefix:**
+    Write a function to find the longest common prefix string amongst an array of strings.
+19. **Validate Email Address:**
+    Write a function to validate an email address based on certain criteria (e.g., presence of '@' and '.' symbols, proper placement, etc.).
+20. **String Compression:**
+    Write a function that performs basic string compression. For a string like "aabcccccaaa," return "a2b1c5a3." If the compressed string is not smaller than the original, return the original string.

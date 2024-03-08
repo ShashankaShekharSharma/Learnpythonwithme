@@ -1,4 +1,10 @@
-#print(str1.endswith("to",4,10)) will search for to at the end in between 4th and 10th string
+# For a random string in random case, print the string in lower, upper, capitalized and title case
 a = input("Enter a word with random case: ")
 a = a.lower()
-print(a)
+print("Lower Case: ",a)
+a = a.upper()
+print("Upper Case: ",a)
+a = a.capitalize()
+print("Capitalized case: ",a)
+a = a.title()
+print("Title Case: ",a)

@@ -1,29 +1,4 @@
 '''
-READING CONTENTS IN A FILE
-f = open('myfile.txt','r') 
-contents = f.read()
-print(contents)
-f.close()
-This will read the contents in the file but will not create a new if this file does not exist
-'''
-
-'''
-WRITING CONTENTS IN A FILE
-f = open('myfile.txt','w')
-f.write("Hello World")
-f.close()
-This will overwrite the contents in the file but if the file is not created, it will make the file and write the text in it
-'''
-
-'''
-APPENDING CONTENTS IN A FILE
-f = open('myfile.txt','a')
-f.write("Hello World)
-f.write()
-This will append the contents in the file but if the file is not created, it will make the file and write the text in it
-'''
-
-'''
 Questions:
 
 You have a log file (log.txt) containing records of user activity in the following format:
@@ -76,3 +51,4 @@ most_frequent_action = Counter(actions).most_common(1)[0][0]
 print(f"Total number of actions: {total_actions}")
 print(f"Unique usernames: {unique_usernames}")
 print(f"Most frequent action: {most_frequent_action}")
+

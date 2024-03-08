@@ -1,3 +1,4 @@
+#Write a code to take two integer as input and print its addition, subtration, multiplication and division
 def addition(a,b):
   return a+b
 def subtraction(a,b):

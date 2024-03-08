@@ -1,10 +1,10 @@
-#FizzBuzz: Write a program that prints "Fizz" for multiples of 3, "Buzz" for multiples of 5, and "FizzBuzz" for multiples of both.
+#FuzzBuzz: Write a program that prints "Fuzz" for multiples of 3, "Buzz" for multiples of 5, and "FuzzBuzz" for multiples of both.
 a = int(input("Enter a number "))
 def FizzBuzz(a):
     if a%3==0 and a % 5 ==0:
-        print("FizzBuzz")
+        print("FuzzBuzz")
     elif a%3==0:
-        print("Fizz")
+        print("Fuzz")
     elif a%5==0:
         print("Buzz")
     else:

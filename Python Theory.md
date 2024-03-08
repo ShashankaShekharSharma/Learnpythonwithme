@@ -133,3 +133,67 @@ It involves training a model on a certain task and then leveraging that knowledg
 import math
 print(dir(math))
 ```
+
+# List Methods
+```python
+a.append(3) #3 is insetered at the end of the set
+a.insert(0,3) #inserts 3 at 0 index
+a.remove(3) #removes the number 3 from the list. It will only remove the first occurence
+a.clear() #clears the entire list
+a.pop() #clears the last element in the list
+a.index(3) #returns the index of 3 in the list
+print(50 in a) #returns true or false depeneding upto the presence of 50 in the list
+a.count(5) #returns the count of the number 5 in the list
+a.sort() #sorts the list into ascending order
+#To get a list in descending order:
+a.sort()
+a.reverse()
+#This can also be done in another way
+a.sort(reverse = True)
+```
+
+# Extend method
+```python
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list1.extend(list2)
+print(list1)
+```
+Output
+`[1,2,3,4,5,6]`
+
+# File IO
+## READING CONTENTS IN A FILE
+```python
+f = open('myfile.txt','r') 
+contents = f.read()
+print(contents)
+f.close()
+#This will read the contents in the file but will not create a new if this file does not exist
+```
+## WRITING CONTENTS IN A FILE
+```python
+f = open('myfile.txt','w')
+f.write("Hello World")
+f.close()
+#This will overwrite the contents in the file but if the file is not created, it will make the file and write the text in it
+```
+## APPENDING CONTENTS IN A FILE
+```python
+f = open('myfile.txt','a')
+f.write("Hello World)
+f.close()
+#This will append the contents in the file but if the file is not created, it will make the file and write the text in it
+```
+## Alternate way of writing file
+```python
+with open('myfile.txt',a) as f:
+  f.write("Hello World")
+#If we use this method, we need not do f.close()
+```
+`If a function is given a return statement multiple times, only the first return statement will be considered`
+
+# Miscelleaneous Points
+- Module result will be negatige if numerator is postive and denominator is negative
+- Numerator negative and denominator positive will give positive remainder
+- ```python print(str1.endswith("to",4,10))``` will search for to at the end in between 4th and 10th string

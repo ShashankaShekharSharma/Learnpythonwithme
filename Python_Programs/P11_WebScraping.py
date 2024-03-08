@@ -1,3 +1,4 @@
+#Write a Python program that utilizes the requests and BeautifulSoup libraries to scrape the main page of Wikipedia (https://www.wikipedia.org/). The program should first retrieve the HTML content of the webpage. If successful (status code 200), it should then parse the HTML and find all heading elements (h1 to h6). Finally, the program should extract and print the text content of these headings after removing any leading or trailing whitespace.
 import requests
 from bs4 import BeautifulSoup
 
