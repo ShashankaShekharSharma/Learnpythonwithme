@@ -136,6 +136,7 @@ print(dir(math))
 
 # List Methods
 ```python
+a = [1,2,3,4]
 a.append(3) #3 is insetered at the end of the set
 a.insert(0,3) #inserts 3 at 0 index
 a.remove(3) #removes the number 3 from the list. It will only remove the first occurence
@@ -197,3 +198,164 @@ with open('myfile.txt',a) as f:
 - Module result will be negatige if numerator is postive and denominator is negative
 - Numerator negative and denominator positive will give positive remainder
 - ```python print(str1.endswith("to",4,10))``` will search for to at the end in between 4th and 10th string
+- a.replace() changes all the string which needs to be changed.
+
+```python
+l = [1,2,3,4]
+a = l
+```
+This is not a the `correct method` to copy a list
+```python
+a[0] = 5
+```
+In this case it will not only change the value of index 0 in a, but also in l as well because the reference is copied in a and not the entire list
+To `copy` the list we should use
+```python
+#This is the correct method for doing so
+a = l.copy()
+```
+# Tuples
+If a tuple consists of only one element, add a `,` next to it
+```python
+tup = (1) #This will be considered as an integer and not tuple
+tup = (1,) #This will be considered as a tuple
+```
+```python
+tuple.index(3,4,7) #It will return the index of 3 which lies in between the index range (4,7)
+```
+# Format Method
+```py
+sentence = "Hi, I am {} and I am from {}"
+name = "John"
+country = "United States of America"
+print(sentence.format(name,country))
+```
+Output: `Hi, I am John and I am from United States of America`
+
+```python
+print(f"Hi I am {name} and I am from {country}")
+price = 49.484
+print(f"The cost of the item is {price:.2f}") #Output: The cost of the item is 49.48
+```
+# Docstrings
+Docstrings are not comments it is ignored during execution but it is expected to have important information about the function
+Docstring should be right below the `def function(parameters):`
+```python
+def area(n):
+  '''Takes the length of the square as input and returns the area as output'''
+  return n*n
+print(area.__doc__)
+```
+Output: `Takes the length of the square as input and returns the area as output`
+
+# Zen of Python
+```py
+import this
+```
+**The Zen of Python, by Tim Peters**
+**Beautiful is better than ugly**.
+**Explicit is better than implicit**.
+**Simple is better than complex**.
+**Complex is better than complicated**.
+**Flat is better than nested.**
+**Sparse is better than dense.**
+**Readability counts.**
+**Special cases aren't special enough to break the rules.**
+**Although practicality beats purity.**
+**Errors should never pass silently.**
+**Unless explicitly silenced.**
+**In the face of ambiguity, refuse the temptation to guess.**
+**There should be one-- and preferably only one --obvious way to do it.**
+**Although that way may not be obvious at first unless you're Dutch.**
+**Now is better than never.**
+**Although never is often better than *right* now.**
+**If the implementation is hard to explain, it's a bad idea.**
+**If the implementation is easy to explain, it may be a good idea.**
+**Namespaces are one honking great idea -- let's do more of those!**
+
+# PEP 8
+PEP 8 is the Python Enhancement Proposal that provides style guide recommendations for writing code in the Python programming language. The term "PEP" stands for "Python Enhancement Proposal," and PEP 8 specifically addresses the style conventions for Python code.
+
+PEP 8 covers various aspects of code style, including but not limited to:
+
+1. **Indentation:**
+   - Use 4 spaces per indentation level.
+
+2. **Whitespace in Expressions and Statements:**
+   - Avoid extraneous whitespace in the following situations: immediately inside parentheses, brackets, or braces, and between a trailing comma and a following close parenthesis.
+
+3. **Imports:**
+   - Imports should usually be on separate lines, and absolute imports are preferred over relative imports.
+
+4. **String Quotes:**
+   - Use single quotes for string literals unless the string contains a single quote character, in which case you should use double quotes.
+
+5. **Whitespace in Expressions and Statements:**
+   - Avoid extraneous whitespace in the following situations: immediately inside parentheses, brackets, or braces, and between a trailing comma and a following close parenthesis.
+
+6. **Comments:**
+   - Comments should be complete sentences, and they should be used sparingly. Comments that contradict the code are worse than no comments.
+
+7. **Naming Conventions:**
+   - Follow the naming conventions specified in PEP 8 for variables, functions, and classes.
+
+8. **Programming Recommendations:**
+   - PEP 8 provides recommendations on a variety of programming practices, such as using built-in functions and exceptions, handling exceptions, and organizing imports.
+
+Adhering to PEP 8 helps maintain a consistent and readable style across Python codebases, making it easier for developers to collaborate and maintain code. Many Python developers and projects follow PEP 8 to ensure a standardized coding style.
+
+# Sets
+```py
+a = {1,2,3}
+b = {4,5,6}
+c = {} #This will result in an empty dictioanary
+a = set() #This will result in an empty set
+# Order is not maintained in set
+print(a.union(b)) #The result is {1,2,3,4,5,6}
+print(s1.update(s2)) #The result of s1 union s2 will be stored in s1
+d = {1,2,5}
+print(a.intersection(d)) #The result is {2}
+print(a.symmetric_differenece(d)) #It will print all the uncommon elements in both set
+print(a.issuperset(b)) #It will tell if all the elements of b are present in a
+print(a.issubset(b)) #It will tell if all the elements of a are present in b
+```
+# Dictionary
+Accessing a value of a key
+```py
+info = {'name' : 'John'}
+print(info['name'])
+```
+Accessing all the keys 
+```py
+print(info.keys())
+```
+Interating all the values to corresponding to every key
+```py
+for key in info.keys():
+  print(info[key])
+```
+OR
+```py
+for key,value in info.items():
+  print(f"{key} : {value}")
+  #Output=> key : value
+```
+```py
+d1 = {1 : 21, 2 : 23, 3 : 35}
+d2 = {4 : 23, 5 : 32, 6 : 23}
+d1.update(d2)
+print(d1)
+#{1 : 21, 2 : 23, 3 : 35, 4 : 23, 5 : 32, 6 : 23}
+d1.popitem()
+print(d1)
+#{1 : 21, 2 : 23, 3 : 35, 4 : 23, 5 : 32}
+d1.clear()
+print(d1)
+del d1[1] #Delete the key value pair 1 : 21
+#{}
+```
+```py
+student = {'name' : 'John'}
+print(student[name2]) #Error
+print(student.get[name2]) # No Error
+```
