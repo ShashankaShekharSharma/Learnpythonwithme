@@ -1,6 +1,8 @@
 # Python
 Python is a versatile and high level programming language known for its simplicity, readability and wide range of applications created by Guido Van Rossum released in 1991. Python has gained a high popularity in various domains like web development, data science, machine learning, artificial intelligence, scripting, etc. 
 
+`Python is a case sensitive language`
+
 # Key features of Python
 1. Readability: It is designed to be clean and readable making it easy for developers to code in fewer lines of code.
 2. Interpreted Language: Code execution occurs line by line making it easier for debugging and testing.
