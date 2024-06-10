@@ -40,6 +40,13 @@ Python is a versatile and high level programming language known for its simplici
 4. Easy Collaboration: allows you to share the specific package versions needed for the project, making it easier for team members to replicate the development environment.
 5. Version Compatibility: help manage version compatibility issues, especially when dealing with libraries or packages that receive updates. You can freeze the versions to avoid unexpected changes.
 
+# DataTypes in Python
+1. Integer
+2. String
+3. Float
+4. Boolean
+5. None
+
 ## Setting up a Virtual Environment
 Open the terminal
 ```bash
