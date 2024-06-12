@@ -5,4 +5,5 @@
 </ol>
 <ol>
   <li>https://www.youtube.com/watch?v=t2_Q2BRzeEE&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0</li>
+  <li>https://www.youtube.com/watch?v=lIId8IDP6TU&list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0&index=2</li>
 </ol>
