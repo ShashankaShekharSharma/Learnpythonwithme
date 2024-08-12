@@ -61,4 +61,4 @@ Happy coding and learning!
    22. [Binary Search](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Python_Programs/P22_Binary_Search.py)
    23. [Remove Duplications](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Python_Programs/P23_RemoveDuplication.py)
    24. [Exponents of Numbers](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Python_Programs/P24_ExponentOfNumber)
-   25. [Leap Yeap](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Python_Programs/P25_LeapYear.py)
+   25. [Leap Year](https://github.com/ShashankaShekharSharma/Learnpythonwithme/blob/main/Python_Programs/P25_LeapYear.py)
