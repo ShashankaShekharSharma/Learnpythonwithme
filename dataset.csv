@@ -1,0 +1,22 @@
+Policy Name,Target Age Group,Marital Status,Income Status,Coverage Limit,Company Name,Provider
+StarGuard,18-30,Single,Low,$10,000,SecureLife,LifeCorp
+FuturePlan,31-45,Married,Medium,$25,000,PrimeAssure,TrustInsure
+SafeHaven,46-60,Single,High,$50,000,GlobalCoverage,WorldSecure
+ElderCare,61+,Widowed,Low,$15,000,LifeGuard,SeniorCare
+YoungProtect,18-30,Married,Medium,$20,000,FutureSafe,NextGen
+MaxShield,31-45,Single,High,$40,000,UltraSecure,ShieldCo
+BasicCover,46-60,Married,Low,$12,000,SecureLife,LifeCorp
+GoldenYears,61+,Single,Medium,$18,000,PrimeAssure,TrustInsure
+NewHorizon,18-30,Widowed,High,$30,000,GlobalCoverage,WorldSecure
+SmartChoice,31-45,Divorced,Medium,$22,000,LifeGuard,SeniorCare
+OptiGuard,46-60,Married,High,$45,000,FutureSafe,NextGen
+ClassicCover,61+,Divorced,Low,$14,000,UltraSecure,ShieldCo
+QuickPlan,18-30,Single,Medium,$16,000,SecureLife,LifeCorp
+FutureShield,31-45,Married,High,$35,000,GlobalCoverage,WorldSecure
+LifePath,46-60,Widowed,Medium,$25,000,PrimeAssure,TrustInsure
+EliteCare,61+,Married,High,$55,000,LifeGuard,SeniorCare
+NewLeaf,18-30,Divorced,Low,$12,000,UltraSecure,ShieldCo
+PrimeProtect,31-45,Single,Medium,$21,000,FutureSafe,NextGen
+GoldGuard,46-60,Divorced,High,$50,000,SecureLife,LifeCorp
+SilverShield,61+,Widowed,Medium,$20,000,GlobalCoverage,WorldSecure
+YoungSecure,18-30,Married,High,$28,000,LifeGuard,SeniorCare
