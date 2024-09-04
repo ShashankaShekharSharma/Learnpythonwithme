@@ -1,4 +1,4 @@
-Policy Name,Target Age Group,Marital Status,Income Status,Coverage Limit,Company Name,Provider
+Policy Name,Target Age Group,Marital Status,Income Status,Coverage Limit,Company Name
 StarGuard,18-30,Single,Low,$10,000,SecureLife,LifeCorp
 FuturePlan,31-45,Married,Medium,$25,000,PrimeAssure,TrustInsure
 SafeHaven,46-60,Single,High,$50,000,GlobalCoverage,WorldSecure
